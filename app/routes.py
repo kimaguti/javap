@@ -1,5 +1,6 @@
+# app/routes.py
 from flask import Blueprint, render_template, request, redirect, url_for, session
-from . import get_db_connection
+from .database import get_db_connection
 
 routes_bp = Blueprint('routes', __name__)
 

@@ -1,6 +1,7 @@
+# app/auth.py
 from flask import Blueprint, render_template, request, redirect, url_for, session
 from werkzeug.security import generate_password_hash, check_password_hash
-from . import get_db_connection
+from .database import get_db_connection
 
 auth_bp = Blueprint('auth', __name__)
 
