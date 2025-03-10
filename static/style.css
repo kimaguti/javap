@@ -9,11 +9,12 @@ body {
 h1 {
     text-align: center;
     color: #333;
+    margin-bottom: 20px;
 }
 
 /* Container for forms */
 .form-container {
-    max-width: 600px;
+    max-width: 400px;
     margin: 50px auto;
     background-color: #fff;
     padding: 30px;
@@ -39,7 +40,7 @@ label {
     width: 30%; /* Give the label space on the left */
 }
 
-input[type="text"], input[type="password"], select {
+input[type="text"], input[type="password"] {
     width: 65%; /* Give the input space on the right */
     padding: 10px;
     margin-left: 15px;
@@ -78,6 +79,13 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
 /* Responsive layout */
 @media (max-width: 600px) {
     .form-container {
@@ -89,7 +97,7 @@ a:hover {
         align-items: flex-start;
     }
 
-    label, input[type="text"], input[type="password"], select {
+    label, input[type="text"], input[type="password"] {
         width: 100%;
     }
 }
