@@ -1,0 +1,17 @@
+Chairperson Dashboard:
+
+After logging in, the Chairperson is directed to their dashboard, where they can:
+Register the group name (for the welfare group).
+View or manage members.
+Assign roles to the members of the group.
+Example Workflow:
+Step 1: Chairperson registers their account (personal info, username, password).
+Step 2: Chairperson logs in with username/password.
+Step 3: On the dashboard, the Chairperson registers the Chama Welfare Group (group name, description, etc.).
+Step 4: The Chairperson can add members to the group and assign roles within the group from the dashboard.
+This approach keeps things clean, logical, and more manageable, especially as you expand the app's functionality.
+
+Would you like help with building the Group Registration Form in the dashboard or need any further clarification on this process?
+
+
+
